@@ -9,6 +9,6 @@ GRANT ALL PRIVILEGES ON *.* TO 'peter'@'%';
 SELECT user, authentication_string FROM mysql.user
 quit;
 
-mysql-ctl restart
+mysql-ctl restart@
 
-# end of commands
+# End of commands
